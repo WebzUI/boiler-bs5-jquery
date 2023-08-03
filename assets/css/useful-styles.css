@@ -1,0 +1,240 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+html {
+	scroll-behavior: smooth;
+}
+
+.font-libre {
+	font-family: "Libre Caslon Text", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.font-serrat {
+	font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+}
+
+.fade-label {
+	font-size: 0.8em;
+	font-weight: 600;
+	color: #6C757D;
+	vertical-align: middle;
+}
+
+.dark-label {
+	font-size: 0.8em;
+	font-weight: 600;
+}
+
+.green-label {
+	font-size: 0.8em;
+	font-weight: 600;
+	color: var(--success);
+	vertical-align: middle;
+}
+
+.update-info-modal .form-group {
+	margin-bottom: 0.5em;
+}
+
+.update-info-modal .form-group .form-control {
+	padding-top: 0em;
+	padding-bottom: 0em;
+}
+
+.update-info-modal .form-group div {
+	margin-left: 0.5em;
+}
+
+.update-info-modal .form-group input::placeholder {
+	color: var(--danger);
+	font-weight: 200;
+	font-size: 0.9em;
+}
+
+.no-value-color {
+	color: var(--danger);
+	font-weight: 200;
+}
+
+.pretty-scroll {
+	width: 100%;
+	overflow-y: auto;
+	overflow-x: hidden;
+
+	scroll-behavior: smooth;
+	scrollbar-width: auto;
+	scrollbar-color: #303030 #d9d9d9;
+}
+
+.pretty-scroll::-webkit-scrollbar {
+	width: 8px;
+}
+
+.pretty-scroll::-webkit-scrollbar-track {
+	background: #d9d9d9;
+}
+
+.pretty-scroll::-webkit-scrollbar-thumb {
+	background-color: #303030;
+	border-radius: 5px;
+	border: 1px solid #ffffff;
+}
+
+.red-dot::after {
+	content: '*';
+	color: red;
+	opacity: 1;
+	font-size: 1rem;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+.cursor-default {
+	cursor: default;
+}
+
+.fake-link:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.hover-item:hover {
+	cursor: pointer;
+	background-color: #f3f3f3;
+	transition: 0.2s;
+}
+
+.red-empty::placeholder {
+	color: #dc3545;
+	opacity: 0.8;
+}
+
+form input::-webkit-input-placeholder {
+	/* font-weight: 200; */
+}
+
+.small-tags .badge {
+	font-size: 11px;
+}
+
+.form-group-right {
+	position: relative;
+	margin-top: 4px;
+}
+
+.form-group-right label {
+	position: absolute;
+	top: -1em;
+	left: 0;
+	font-weight: 600;
+	font-size: 12px;
+	background-color: #fff;
+	margin-left: 4px;
+	padding-right: 1ch;
+}
+.form-input-secondary input,
+.form-input-secondary select {
+	border-color: var(--secondary);
+}
+
+.make-red-empty input::placeholder {
+	color: #dc3545;
+	opacity: 0.8;
+}
+
+.make-red-empty textarea::placeholder {
+	color: #dc3545;
+	opacity: 0.8;
+}
+
+.position-middle-left {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%);
+}
+
+.gap-1 {
+	gap: 1em;
+}
+
+.gap-half {
+	gap: 0.625em;
+}
+
+.flex-1 {
+	flex: 1;
+}
+
+.rightArrow {
+	position: absolute;
+	left: 105%;
+}
+
+.bounce {
+	-moz-animation: bounce 3s infinite;
+	-webkit-animation: bounce 3s infinite;
+	animation: bounce 3s infinite;
+}
+@-moz-keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		-moz-transform: translateX(0);
+		transform: translateX(0);
+	}
+	40% {
+		-moz-transform: translateX(-30px);
+		transform: translateX(-30px);
+	}
+	60% {
+		-moz-transform: translateX(-15px);
+		transform: translateX(-15px);
+	}
+}
+@-webkit-keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+	40% {
+		-webkit-transform: translateX(-30px);
+		transform: translateX(-30px);
+	}
+	60% {
+		-webkit-transform: translateX(-15px);
+		transform: translateX(-15px);
+	}
+}
+@keyframes bounce {
+	0%,
+	20%,
+	50%,
+	80%,
+	100% {
+		-moz-transform: translateX(0);
+		-ms-transform: translateX(0);
+		-webkit-transform: translateX(0);
+		transform: translateX(0);
+	}
+	40% {
+		-moz-transform: translateX(-30px);
+		-ms-transform: translateX(-30px);
+		-webkit-transform: translateX(-30px);
+		transform: translateX(-30px);
+	}
+	60% {
+		-moz-transform: translateX(-15px);
+		-ms-transform: translateX(-15px);
+		-webkit-transform: translateX(-15px);
+		transform: translateX(-15px);
+	}
+}
