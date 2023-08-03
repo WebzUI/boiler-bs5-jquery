@@ -1,14 +1,14 @@
 # boiler-bs5-jquery
 
-Variables
-api/connect.php
+**Variables**
+_api/connect.php_
 - host
 - user
 - pass
 - db
 
-includes/header.php
+_includes/header.php_
 - title (of the page)
 
-includes/nav.php
+_includes/nav.php_
 - nav_item
