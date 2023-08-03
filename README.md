@@ -1,6 +1,7 @@
 # boiler-bs5-jquery
 
 **Variables**
+
 _api/connect.php_
 - host
 - user
