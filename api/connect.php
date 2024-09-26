@@ -1,8 +1,8 @@
 <?php
 try {;
-    $mysqli = new mysqli('localhost','root','','lahra');
+    $conn = new mysqli('localhost','root','','you_db_name');
 
-    if ($mysqli->connect_error) {
+    if ($conn->connect_error) {
         die("...");
     }
 } catch (Exception $e) {
